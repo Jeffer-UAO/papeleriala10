@@ -24,7 +24,7 @@ export function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        {/* <div className={styles.content}>
+        <div className={styles.content}>
           <h6>SOBRE NOSOTROS</h6>
           <div className={styles.link}>
             <p>
@@ -34,7 +34,7 @@ export function Footer() {
               <Link href="/contact">Contacto</Link>
             </p>
              </div>
-        </div> */}
+        </div>
 
         <h6>CATEGORÍAS</h6>
         <div className={styles.link}>
@@ -46,13 +46,13 @@ export function Footer() {
         </div>
       </div>
       <div>
-        {/* <p className={styles.copyright}>
-        CACHARRERIA LA 10 Copyright © 2023. Todos los derechos
+        <p className={styles.copyright}>
+        VARIEDADES EL 184 Copyright © 2023. Todos los derechos
           reservados <br />
           Desarrollado por: Jeffer Quiñones <br />
           Cel: 300 530 9990
           Versión 5.0.1
-        </p> */}
+        </p>
       </div>
     </div>
   );

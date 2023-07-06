@@ -20,7 +20,6 @@ import styles from "./ListProduts.module.scss";
 import Link from "next/link";
 
 import { useCart } from "@/hooks/useCart";
-import { ModalBasic } from "../Common";
 import { useState } from "react";
 
 export function Listproducts(props) {
@@ -41,9 +40,7 @@ export function Listproducts(props) {
 
   const addData = () => {
     addCart(idProduct, quantity);
-
     toast.success("¡Se agrego con exito!");
-
     toggleModal();
   };
 
@@ -73,16 +70,16 @@ export function Listproducts(props) {
                 <div className={styles.price}>
                   <CardSubtitle>
                     {product.productData.price2 > 0 && (
-                      <h6>Por mayor $ {product.productData.price2}</h6>
+                      <h6> {product.productData.price2}</h6>
                     )}
                     {product.productData.price1 > 0 && (
-                      <h6>Al detal $ {product.productData.price1}</h6>
+                      <h6>{product.productData.price1}</h6>
                     )}
                   </CardSubtitle>
 
                   <div>
                     <WhatsApp
-                      phoneNumber="+573207587325"
+                      phoneNumber="+573108405860"
                       message={
                         BASE_NAME +
                         product.productData.images +

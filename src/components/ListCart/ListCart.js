@@ -15,8 +15,6 @@ export function ListCart(props) {
   const { product } = props;
   const { loading, decreaseCart, incrementCart, deleteCart } = useCart();
 
-  console.log(loading);
-
   return (
     <div>
        
@@ -33,8 +31,8 @@ export function ListCart(props) {
             <div className={styles.detalle}>
               <p className={styles.name}>{item.name_extend}</p>
 
-              <p className={styles.price}>Detal: $ {item.price1}</p>
-              <p className={styles.price}>Mayor: $ {item.price2}</p>
+              <p className={styles.price}> {item.price1}</p>
+              <p className={styles.price}> {item.price2}</p>
               {/* <p className={styles.quantity}>
                 Total: $ {item.quantity * item.price1}
               </p> */}

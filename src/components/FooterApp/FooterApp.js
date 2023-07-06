@@ -2,7 +2,6 @@ import { WhatsApp } from "../WhatsApp";
 import styles from "./FooterApp.module.scss";
 import { AiOutlineHome } from "react-icons/ai";
 import { MdOutlineCategory } from "react-icons/md";
-import { MdOutlineLocalOffer } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
@@ -23,7 +22,7 @@ export function FooterApp() {
         />
 
         <WhatsApp
-          phoneNumber="+573207587325"
+          phoneNumber="+573108405860"
           message="Hola, me gustaría obtener más información sobre sus productos."
         />
 
@@ -44,7 +43,7 @@ export function FooterApp() {
 
         <BtnLink
           link={
-            "https://papeleriala10.catalogointeractivo.com.co/admin-dashboard/"
+            "https://variedadesel184.catalogointeractivo.com.co/admin-dashboard/"
           }
           title={"ADMI"}
           logo={<CiUser size={20} />}

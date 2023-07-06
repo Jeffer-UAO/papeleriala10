@@ -30,10 +30,10 @@ export function DetailProduct(props) {
               <h5 className={styles.name_extend} >{productData.name_extend}</h5>
               <div className={styles.price}>
                 {productData.price2 > 0 && (
-                  <h6>Por mayor $ {productData.price2}</h6>
+                  <h6> $ {productData.price2}</h6>
                 )}
                 {productData.price1 > 0 && (
-                  <h6>Al detal $ {productData.price1}</h6>
+                  <h6> {productData.price1}</h6>
                 )}
               </div>
             </CardTitle>
@@ -41,7 +41,7 @@ export function DetailProduct(props) {
 
             <div className={styles.whatsapp}>
               <WhatsApp
-                phoneNumber="+573207587325"
+                phoneNumber="+573108405860"
                 message={
                   BASE_NAME +
                   productData.images +

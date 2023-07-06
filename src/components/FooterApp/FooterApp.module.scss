@@ -6,7 +6,7 @@
 
   .paneluser {
     display: flex;
-    background-color: #ffffff;
+    background-color: rgb(10, 194, 207);
     align-items: center;
     width: 100vw;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     box-shadow: -1px 1px 15px 7px rgba(0, 0, 0, 0.53);
 
     svg{
-      color: rgb(255, 255, 255);
+      color: rgb(10, 194, 207);
     }
   }
 
@@ -25,7 +25,6 @@
     position: relative;
     p {
       display: flex;
-
       justify-content: center;
       align-items: center;
       position: absolute;

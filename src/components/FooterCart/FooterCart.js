@@ -42,7 +42,7 @@ export function FooterCart(props) {
 
         <a
           className={styles.btnwsp}
-          href={generateWhatsAppLink("+573207587325", product)}
+          href={generateWhatsAppLink("+573108405860", product)}
           target="_blank"
           rel="noopener noreferrer"
         >
